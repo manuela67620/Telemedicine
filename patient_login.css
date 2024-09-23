@@ -1,0 +1,53 @@
+body {
+    background-color: #f4f4f4; /* Light background for the login page */
+}
+
+.container {
+    max-width: 400px; /* Limit width for login form */
+    margin: 50px auto; /* Center the container */
+    padding: 20px;
+    background: #fff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff; /* Blue color for the heading */
+    text-align: center; /* Center the heading */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+}
+
+button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+    text-align: center; /* Center footer text */
+    padding: 15px 0;
+}
