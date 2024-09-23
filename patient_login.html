@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Login</title>
+    <link rel="stylesheet" href="style.css"> <!-- General styles -->
+    <link rel="stylesheet" href="patient_login.css"> <!-- Patient login specific styles -->
+</head>
+<body>
+    <header>
+        <h1>Connecting you to care</h1>
+        
+        <p>Access Quality Healthcare Anytime, Anywhere. Your Health Matters to Us.</p>
+    </header>
+
+    <div class="container">
+        <main>
+            <h2>Patient Login</h2>
+            <form action="dashboard.html" method="POST">
+                <div class="form-group">
+                    <label for="username">Username or Email:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Login</button>
+                </div>
+                <p>Don't have an account? <a href="signup.html">Sign up here</a>.</p>
+            </form>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 TeleDigital. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
